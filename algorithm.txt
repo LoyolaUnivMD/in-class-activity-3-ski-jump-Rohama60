@@ -1,0 +1,25 @@
+1,Prompt the user to enter the hill type (normal, large).
+2,Read the input hillType from the user.
+3,Prompt the user to enter the par value.
+4,Read the input par from the user.
+5,Initialize variables height, pointsPerMeter, and distance.
+6,If hillType is "normal":
+ - Set height to 46.
+ - Set pointsPerMeter to 2.0.
+ - Set distance to 90.
+7, Else, if hillType is "large":
+ - Set height to 70.
+ - Set pointsPerMeter to 1.8.
+ - Set distance to 120.
+8, Otherwise:
+ - Set height, pointsPerMeter, and distance to 0.
+9, Calculate points using the formula:
+10, If distance is greater than par, set points to 60 plus the difference between distance and par times casted pointsPerMeter to int.
+11, Else, set points to 60.
+   -  Print the hill type and total points earned.
+12, If points is greater than or equal to 61:
+   -  Print "Great job for doing better than par!".
+13, Else, if points is less than 10:
+   -  Print "What happened??".
+14, Else:
+   - Print "Sorry you didn’t go very far".
